@@ -1,11 +1,11 @@
-import ButtonCount from './components/buttoncount/buttoncount';
 import './App.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import CalcButton from './Components/Button/CalcButton';
 
 function App() {
   return (
-    <>
-    <ButtonCount />
-    </>
+    //This is the Component that is going to handle al lof our logic
+    <CalcButton/>
   );
 }
 
