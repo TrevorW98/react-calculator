@@ -1,4 +1,4 @@
-import {Button } from 'react-bootstrap';
+import { Button } from 'react-bootstrap';
 const importedButton =(anything) =>{
     const handleClick = () => anything.onClick(anything.increment)
     return (
